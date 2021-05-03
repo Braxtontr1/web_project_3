@@ -1,5 +1,17 @@
 .place__website {
     grid-row: 1;
     grid-column: 2;
-    align-self: center;
+    padding-bottom: 25px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .place__website {
+        grid-column: 1/2;
+        grid-row: 2;
+        max-width: 288px;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
 }

@@ -5,3 +5,11 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width:768px) {
+    .lead__caption {
+        padding-top: 8px;
+        width: 90%;
+        margin: auto;
+    }
+}

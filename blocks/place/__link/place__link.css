@@ -1,5 +1,15 @@
 .place__link {
-color: #ffffff;
-font-size: 18px;
-line-height: 1.2;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .place__link {
+        grid-column: 1/2;
+        grid-row: 4/6;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
 }

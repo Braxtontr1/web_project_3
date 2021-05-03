@@ -1,9 +1,32 @@
 .header {
     display: flex;
-    width: 80vw;
+    max-width: 984px;
+    width: 100%;
     justify-content: space-between;
     list-style: none;
     margin: auto;
     padding: 34px 0 58px 0;
 
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .header {
+        max-width: 288px;
+        padding-top: 20px;
+    }
 }

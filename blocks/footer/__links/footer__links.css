@@ -1,0 +1,17 @@
+.footer__links {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        margin: 0;
+        padding: 32px 0 0;
+    }
+}
