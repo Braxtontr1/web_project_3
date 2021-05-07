@@ -1,0 +1,10 @@
+.header__list-item {
+    padding-right: 18px;
+}
+
+
+@media screen and (max-width:500px) {
+    .header__list-item:last-of-type {
+        padding-right: 0;
+    }
+}

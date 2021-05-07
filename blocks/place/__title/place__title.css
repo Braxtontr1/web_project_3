@@ -6,24 +6,25 @@
     color: #ffffff;
     line-height: 1.0;
     margin: 0;
+    padding-bottom: 23px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .place__title {
         font-size: 42px;
-        line-height: 46px;
+        line-height: 1.2;
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .place__title {
         grid-column: 1/2;
         grid-row: 1;
         font-size: 32px;
-        line-height: 35px;
         max-width: 288px;
         width: 100%;
         margin: auto;
+        padding:0 0 30px;
     }
 
 }

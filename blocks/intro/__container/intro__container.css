@@ -1,17 +1,10 @@
- .intro__container {
-     max-width: 690px;
-     width: 100%;
- }
+.intro__container {
+    max-width: 690px;
+    width: 100%;
+}
 
- @media screen and (max-width: 320px) {
-     .intro__container {
-         width: calc(100% - 32px);
-         margin: auto;
-     }
- }
-
- @media screen and (max-width: 1020px) and (min-width: 768px) {
-     .intro__container {
-         max-width: 720px;
-     }
- }
+@media screen and (max-width: 900px) {
+    .intro__container {
+        max-width: 720px;
+    }
+}

@@ -2,14 +2,18 @@
     color: #ffffff;
     list-style: none;
     font-size: 24px;
-    line-height: 1.8;
+    line-height: 1.5;
     font-weight: normal;
     padding-right: 18px;
 }
 
-@media screen and (max-width:320px) {
+
+ @media screen and (max-width:500px) {
     .header__lang-link {
         font-size: 18px;
-        line-height: 20px;
     }
-}
+
+    .header__lang-link:last-of-type {
+        padding-right: 0;
+    }
+} 

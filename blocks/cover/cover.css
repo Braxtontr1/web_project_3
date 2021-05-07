@@ -2,12 +2,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 100%;
     max-width: 1184px;
     height: 740px;
     margin: auto;
-    background-color: #2A2C2F;
+    background-image: url('../../../images/cover-route-66.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.cover:hover .cover__overlay {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +31,14 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
+    .cover {
+        max-height: 260px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
     .cover {
         max-height: 200px;
     }

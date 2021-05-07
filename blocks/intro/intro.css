@@ -12,18 +12,15 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .intro {}
-}
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 975px) {
     .intro {
-        width: 90%;
+        margin: 0 24px;
     }
 }
 
-@media screen and (min-width: 751px) and (max-width: 1023px) {
+@media screen and (max-width: 500px) {
     .intro {
-        width: 90%;
+        margin: 0 16px;
+        padding-top: 64px;
     }
 }
