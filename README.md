@@ -2,7 +2,7 @@
 
 ## Overview
 
-A Responisice website that gives the user an idea of what could await them on a cross country trip.
+A Responive website that gives the user an idea of what could await them on a cross country trip.
 
 ## Purpose
 
