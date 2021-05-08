@@ -4,7 +4,7 @@
     justify-content: center;
     width: 100%;
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
     margin: auto;
     background-image: url(../../images/cover-route-66.jpg);
     background-position: center;
@@ -14,33 +14,29 @@
     z-index: 1;
 }
 
-.cover:hover .cover__overlay {
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 1024px) {
     .cover {
-        max-height: 640px;
+        min-height: 640px;
     }
 }
 
 
 @media screen and (max-width: 768px) {
     .cover {
-        max-height: 440px;
+        min-height: 440px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .cover {
-        max-height: 260px;
+        min-height: 260px;
     }
 
 }
 
 @media screen and (max-width: 400px) {
     .cover {
-        max-height: 200px;
+        min-height: 200px;
     }
 
 }

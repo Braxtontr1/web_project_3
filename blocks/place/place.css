@@ -3,10 +3,10 @@
     max-width: 984px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-gap: 25px 40px;
     padding: 81px 0 0;
+    grid-gap: 48px 40px;
 }
 
 .place:first-of-type {
@@ -15,23 +15,22 @@
 
 @media screen and (max-width: 1050px) {
     .place {
-        width: 95%;
+        max-width: 928px;
+        grid-gap: 48px 32px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 975px) {
     .place {
-        width: 100%;
         max-width: 720px;
         padding: 73px 0 0;
+        grid-gap: 48px 28px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .place {
-        display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: auto;
         grid-gap: 0;
         padding: 48px 0 0;
     }

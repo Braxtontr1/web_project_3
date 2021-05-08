@@ -1,0 +1,24 @@
+.place__paragraph-container {
+    max-width: 484px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .place__paragraph-container {
+        max-width: 456px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .place__paragraph-container {
+        max-width: 352px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .place__paragraph-container {
+        margin: auto;
+    }
+}
